@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "name": "nRF52811 DK",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/Program Files (x86)/GNU Tools Arm Embedded/7 2018-q2-update/arm-none-eabi/include",
+                "C:/Nordic/nRF5_SDK_16.0.0_98a08e2/modules/**",
+                "C:/Nordic/nRF5_SDK_16.0.0_98a08e2/components/**"
+            ],
+            "defines": [
+                "BOARD_PCA10056",
+                "CONFIG_GPIO_AS_PINRESET",
+                "INITIALIZE_USER_SECTIONS",
+                "FLOAT_ABI_HARD",
+                "NRF52",
+                "NRF52811_XXAA",
+                "NRF_SD_BLE_API_VERSION=6",
+                "S112",
+                "SOFTDEVICE_PRESENT",
+                "SWI_DISABLE0"
+            ],
+            "macFrameworkPath": [
+                "/System/Library/Frameworks",
+                "/Library/Frameworks"
+            ],
+            "compilerPath": "C:/Program Files (x86)/GNU Tools Arm Embedded/7 2018-q2-update/bin/arm-none-eabi-gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}
